@@ -1,7 +1,7 @@
 CXX=g++
 CPPFLAGS=-Wall -Werror -O2 -fopenmp
 
-TARGETS=boost_version my_parallel
+TARGETS=my_parallel
 
 all: ${TARGETS}
 
